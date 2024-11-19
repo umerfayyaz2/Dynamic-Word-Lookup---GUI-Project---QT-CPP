@@ -10,11 +10,15 @@ CONFIG += c++17
 
 SOURCES += \
     TheWordWhispererUI.cpp \
+    BloomFilter.cpp \
+    Trie.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     TheWordWhispererUI.h \
+    BloomFilter.h \
+    Trie.h \
     mainwindow.h
 
 FORMS += \
@@ -28,5 +32,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DISTFILES += \
     styles.qss
 
-RESOURCES += resources.qrc \
-    resources.qrc
+RESOURCES += resources.qrc
