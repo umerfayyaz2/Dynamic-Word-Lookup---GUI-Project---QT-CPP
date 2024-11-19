@@ -28,4 +28,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DISTFILES += \
     styles.qss
 
-RESOURCES += resources.qrc
+RESOURCES += resources.qrc \
+    resources.qrc
